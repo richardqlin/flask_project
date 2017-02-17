@@ -1,0 +1,35 @@
+<html>
+<body>
+<h4>
+
+Local weather report
+
+</h4>
+<table border="1" style="color": green ; width="100%">
+<tr> 
+<td>City</td>
+<td>State</td>
+<td>Weather</td>
+<td>Temperature</td>
+<td>Humid</td>
+<td>Wind</td>
+<td>Wind_mph</td>
+
+</tr>
+<tr>
+{% for k in result %}
+
+
+
+<td>  {{k}} </td>
+
+{% endfor %}
+</tr>
+
+</table>
+
+<p>
+<li>Click <a href='/'>here</a> back to entry location site</li>
+</p>
+</body>
+</html>
